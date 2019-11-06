@@ -24,10 +24,6 @@
         grid-row-end: 2;
         font-family: 'nunito';
     }
-    .whitespace > img{
-        height: 200px;
-        width:300px;
-    }
     .nav{
         grid-column-start: 2;
         grid-column-end: 4;
