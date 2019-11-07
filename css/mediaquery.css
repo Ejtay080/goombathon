@@ -17,6 +17,10 @@
         font-family: 'nunito';
 
     }
+    .whitespace > img{
+        height: 200px;
+        width: 400px;
+    }
     .header{
         grid-column-start: 1;
         grid-column-end: 4;
@@ -38,15 +42,18 @@
     ul li ul:hover{
         visibility: visible;
         opacity: 1;
-        
+        transition: all 1s ease;
     }
     .nav > ul li ul{
+        position: relative;
+        top: 200px;
+        left: 0px;
         background: orange;
         visibility: hidden;
         opacity: 0;
         min-width: 5rem;
         position: fixed;
-        transition: all 1s ease;
+        
         margin-top: 1rem;
         padding-left: 1rem;
         left: 0;
